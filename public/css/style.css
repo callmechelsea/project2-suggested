@@ -74,7 +74,8 @@ h1 {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    background-color: #2f9e8c;
+    background-color: #212529;
+    border-bottom-width: 1px;
 }
 
 .search-container {
@@ -268,12 +269,16 @@ h1 {
 		height: auto; 
 	}
 	#video-outputs .box-container {
-		width: 47%; 
-		background: #1b1b1b;
-		padding: 50px;
-		color: #ffffff;
-		
-	}
+        width: 47%;
+        background: #1b1b1b;
+        padding: 50px;
+        color: #ffffff;
+        border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -ms-border-radius: 10px ;
+        -o-border-radius: 10px ;
+}
 	#video-outputs h2 { text-align: left; font-size: 40px; line-height: 48px; font-weight: bold; color: #e76fc9; padding-bottom: 32px; }
 	#video-outputs iframe { width: 100%; aspect-ratio: 2 / 1; }
 
